@@ -1,0 +1,32 @@
+package morfismo_visitante;
+
+public class pessoa { 
+	int data;
+	int salario;
+	String nome;
+	String idade;
+	String sexo;	
+	
+}
+class visitante extends pessoa{
+	
+}
+class professor extends pessoa{
+ 	
+ 	String especialidade;
+ 	String  aumento;
+}
+class aluno extends pessoa{
+	String matricula;
+	String curso;
+	int pagar;
+}
+	class bolsista extends aluno{
+		String bolsa;
+		String renovar;
+		int pagar;
+	}
+	class tecnico extends aluno{
+		String registro;
+		String praticar;
+	}
