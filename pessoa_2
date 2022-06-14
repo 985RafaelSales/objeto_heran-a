@@ -1,0 +1,13 @@
+package morfismo_visitante;
+
+public class classe_pessoa2 {
+	public static void main(String[]args){
+pessoa Scanner=	new  pessoa();
+Scanner.data=2022;
+Scanner.salario= 1500;
+Scanner.nome="Rafael";
+Scanner.sexo="Masculino";
+Scanner.especialidade="Aritimética"
+
+}
+}
